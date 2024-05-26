@@ -1,7 +1,7 @@
 /* General styles */
 body {
   font-family: Arial, sans-serif;
-  background-color: #f0f0f0;
+  background-color: #b5b6e8;
   margin: 0;
   padding: 0;
 }
@@ -16,14 +16,17 @@ body {
 
 /* Todo container styles */
 .container {
-  background-color: #fff;
+  background-color: #ffffff;
   padding: 20px;
-  border-radius: 8px;
+  border-radius: 20px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   text-align: center;
-  width: 300px;
+  width: 400px;
 }
-
+ul{
+  margin-top: 15px;
+  
+}
 /* Image styles */
 .container img {
   width: 100px;
@@ -76,4 +79,8 @@ ul{
   position: relative;
   left: 30px;
   top: 4px;
+}
+button{
+    height: 30px;
+    width: 100px;
 }
