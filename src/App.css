@@ -1,38 +1,79 @@
-.App {
-  text-align: center;
+/* General styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/* Main container styles */
+.main-cont {
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  height: 100vh;
 }
 
-.App-link {
-  color: #61dafb;
+/* Todo container styles */
+.container {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 300px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* Image styles */
+.container img {
+  width: 100px;
+  margin-bottom: 20px;
+}
+
+/* Heading styles */
+.container h3 {
+  margin: 0;
+  font-size: 1.5em;
+  color: #333;
+}
+
+/* Input styles */
+.inputs {
+  margin: 20px 0;
+}
+
+.inputs input {
+  width: 93%;
+  padding: 10px;
+  margin-top: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 1em;
+}
+
+/* Paragraph styles */
+.container p {
+  margin: 10px 0;
+  color: #666;
+}
+
+.input{
+  display: flex;
+}
+.icon{
+  height: 30px;
+  width: 30px;
+  position: relative;
+  top: 13px;
+}
+ul{
+  font-size: 23px;
+  text-align: center;
+  position: relative;
+  right: 24px;
+}
+.delicon{
+  position: relative;
+  left: 30px;
+  top: 4px;
 }
